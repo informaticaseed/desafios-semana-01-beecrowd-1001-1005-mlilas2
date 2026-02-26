@@ -15,3 +15,14 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+
+# Lê os dois valores inteiros de entrada
+valor1 = int(input())
+valor2 = int(input())
+
+# Realiza a multiplicação (produto)
+PROD = valor1 * valor2
+
+# Exibe o resultado com a formatação exigida pelo Beecrowd
+# Importante: "PROD" em maiúsculas e espaços ao redor do "="
+print(f"PROD = {PROD}")
